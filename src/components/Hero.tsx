@@ -8,13 +8,13 @@ export default function Hero() {
 
       {/* Background Image */}
       <motion.div
-        className="absolute inset-0 bg-cover bg-top md:bg-center will-change-transform"
+        className="absolute inset-0 bg-cover bg-[center_40%] sm:bg-center will-change-transform scale-[1.15] sm:scale-100"
         style={{
           backgroundImage: "url('/hero.jpg')",
           filter: "contrast(1.15) saturate(1.15) brightness(0.9)",
         }}
-        initial={{ scale: 1.03 }}
-        animate={{ scale: 1 }}
+        initial={{ scale: 1.2 }}
+        animate={{ scale: 1.05 }}
         transition={{
           duration: 8,
           ease: "easeOut",
