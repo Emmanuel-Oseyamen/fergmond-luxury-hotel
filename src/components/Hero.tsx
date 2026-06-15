@@ -10,7 +10,7 @@ export default function Hero() {
       <motion.div
         className="absolute inset-0 bg-cover bg-[center_40%] sm:bg-center will-change-transform scale-[1.15] sm:scale-100"
         style={{
-          backgroundImage: "url('/hero.jpg')",
+          backgroundImage: "url('/hero.png')",
           filter: "contrast(1.15) saturate(1.15) brightness(0.9)",
         }}
         initial={{ scale: 1.2 }}
