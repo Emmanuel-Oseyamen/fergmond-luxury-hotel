@@ -13,7 +13,7 @@ export default function Hero() {
           backgroundImage: "url('/hero.jpg')",
           filter: "contrast(1.15) saturate(1.15) brightness(0.9)",
         }}
-        initial={{ scale: 1.03 }}
+        initial={{ scale: 1.01 }}
         animate={{ scale: 1 }}
         transition={{
           duration: 8,
