@@ -8,7 +8,7 @@ export default function Hero() {
 
       {/* Background Image */}
       <motion.div
-        className="absolute inset-0 bg-cover bg-center will-change-transform"
+        className="absolute inset-0 bg-cover bg-top md:bg-center will-change-transform"
         style={{
           backgroundImage: "url('/hero.png')",
           filter: "contrast(1.15) saturate(1.15) brightness(0.9)",
